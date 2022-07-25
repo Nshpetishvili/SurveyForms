@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+</html>
+<head>
+  <title>Coffee Survey</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  
+  <div class="container">
+  <header class="header">
+     <h1 id="title"> Coffee Survey <h1>
+     <p id="description">Thank you for taking the time to help us improve the service</p>
+  </header>
+  <form id="survey-form">
+    <fieldset>
+        <label id="name-label">First Name: <input id="name" type="text" name="first-name" placeholder="Enter Your First Name" required /></label>
+        <label id="name-label">Last Name: <input id="name" type="text" name="last-name" placeholder="Enter Your Last Name"required /></label>
+        <label id="email-label">Email: <input id="email" type="email" name="email"placeholder="Enter Your Email" required /></label>
+        <label id="number-label">Age: <input id="number" type="number" placeholder="Enter Your Age"name="age" min="13" max="120"/></label>
+      
+
+<br><br>
+
+        <label>How often do you drink coffee?
+          <select id="dropdown" name="referrer">
+            <option value="">Please Select</option>
+            <option value="1">Daily</option>
+            <option value="2">Weekly</option>
+            <option value="3">Monthly</option>
+            <option value="4">Occasionally</option>
+            <option value="5">Never</option>
+          </select>
+        </label>
+        <label>When do you usually drink coffee?
+          <select id="dropdown" name="referrer">
+            <option value="">Please Select</option>
+            <option value="1">Morning</option>
+            <option value="2">Noon</option>
+            <option value="3">Evening</option>
+            <option value="4">Night</option>
+            </select>
+        </label>
+        <label>Approximately how many years have you been a coffee drinker?
+          <select id="dropdown" name="referrer">
+            <option value="">Please Select</option>
+            <option value="1">Less than a year</option>
+            <option value="2">1-2 years</option>
+            <option value="3">3-4 years</option>
+            <option value="4">5 years and above</option>
+            </select>
+        </label>
+        <label>Do you prefer going out for coffee or drinking it at home?
+          <select id="dropdown" name="referrer">
+            <option value="">Please Select</option>
+            <option value="1">Going out</option>
+            <option value="2">Drinking at home</option>
+            </select>
+        </label>
+        <label>How do you like your coffee?
+
+          <select id="dropdown" name="referrer">
+            <option value="">Please Select</option>
+            <option value="1">Weak & Milky</option>
+            <option value="2">Weak & Black</option>
+            <option value="3">Somewhere in the middle</option>
+            <option value="4">Strong & Milky</option>
+      <option value="5">Strong & Black</option>
+            </select>
+        </label>
+        <label>Drink fast or take time to drink?
+          <select id="dropdown" name="referrer">
+            <option value="">Please Select</option>
+            <option value="1">Drink Fast</option>
+            <option value="2">Take time to drink</option>
+            <option value="3">Other</option>
+            </select>
+        </label>
+       <br><br>
+       <p>For what reasons would you drink coffee?</p>
+        <label>
+          <input type="radio" name="reasons" value="group1" class="inline" checked> Drinking Habit</label>
+
+        <label><input type="radio" name="reasons" value="1" class="inline" > Release Stress</label>
+        <label><input type="radio" name="reasons" value="1" class="inline" /> Refreshing</label>
+        <label><input type="radio" name="reasons" value="1" class="inline" /> Social Occassions </label>
+        <label><input type="radio" name="reasons"value="1" class="inline" /> Other </label>
+       <br><br>
+      
+      <p>How much do you usually spend when going out for coffee?</p>
+        <label>
+
+          <input type="radio" name="money" value="group2" class="inline" /> $3 or less</label>
+
+        <label><input type="radio" name="money"value="2" class="inline" /> $3 - $10</label>
+        <label><input type="radio" name="money" value="2" class="inline" /> $10 - $20</label>
+        <label><input type="radio" name="money" value="2" class="inline" /> $20 or more </label>
+        
+        
+    <br><br>
+
+    <p>What attributes are important to you when consuming coffee?<span>(Check all that apply)</span></p>
+          <label ><input  type="checkbox" value="Taste" name="attributes" class="inline" />Taste</label>
+          <label><input  type="checkbox" value="Variety of coffee flavors" name="attributes" class="inline"  />Variety of coffee flavors</label>       
+          <label><input  type="checkbox" value="Quality of coffee beans" name="attributes" class="inline"  />Quality of coffee beans</label>       
+          <label><input  type="checkbox" value="Price" name="attributes" class="inline"  >Price</label>       
+          <label><input  type="checkbox"  value="Barista / Coffee knowledge" name="attributes" class="inline"  />Barista / Coffee knowledge</label>       
+          <label><input  type="checkbox" value="Friendly services" name="attributes" class="inline"  />Friendly services</label>       
+          <label><input  type="checkbox" value="Speed of services" name="attributes" class="inline"  />Speed of services</label>       
+          <label><input  type="checkbox" value="Sales promotion" name="attributes" class="inline"  />Sales promotion</label>       
+          <label><input  type="checkbox"  value="Spacious environment"name="attributes" class="inline"  />Spacious environment</label>       
+          <label><input  type="checkbox" value="Enjoyable atmosphere" name="attributes" class="inline"  />Enjoyable atmosphere</label>
+ 
+       <br><br>
+        <label>What is your favorite coffee? Please list them all.
+          <textarea name="favcoffee" rows="3" cols="30" ></textarea>
+			  </label>
+        <label>Do you have any suggestions to improve our quality of service?
+          <textarea name="favcoffee" rows="3" cols="30" ></textarea>
+			  </label>
+        </fieldset>
+        <input id="submit"type="submit" value="Submit" />
+     
+  </form>
+
+  </div>
+
+</body>
